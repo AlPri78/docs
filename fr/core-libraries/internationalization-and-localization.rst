@@ -630,7 +630,7 @@ Parser les Données Datetime Localisées
 
 Quand vous acceptez les données localisées, c'est sympa d'accepter les
 informations de type datetime dans un format localisé pour l'utilisateur. Dans
-un controller, ou :doc:`/development/dispatch-filters`, vous pouvez configurer
+un controller, ou :doc:`/controllers/middleware.html`, vous pouvez configurer
 les types Date, Time, et DateTime pour parser les formats localisés::
 
     use Cake\Database\Type;
